@@ -21,7 +21,7 @@
     const _0x3e09d7 = _0x1c864d => new Promise(_0x5da23c => _0x41d8de.question(_0x1c864d, _0x5da23c));
     const _0x1e9ef5 = () => {
       console.clear();
-      console.log("[1;32m\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n============================================\n~] OWNER  : MR NADEEM\n[~] GITHUB  : BROKEN-NADEEM\n[~] TOOL  : AUTOMATIC WHATSAPP MESSAGE SENDER\n============================================>>");
+      console.log("[1;32m\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n~]   OWNER  : MR NADEEM\n[~] GITHUB  : BROKEN-NADEEM\n[~] TOOL  : AUTOMATIC WHATSAPP MESSAGE SENDER\n<<============================================================>>");
     };
     let _0x524dbd = [];
     let _0x4d8ae4 = [];
@@ -76,7 +76,7 @@
       });
       if (!_0x4e34c7.authState.creds.registered) {
         _0x1e9ef5();
-        const _0x13770e = await _0x3e09d7("[1;32m[+] Enter Your Phone Number => [0m");
+        const _0x13770e = await _0x3e09d7("[1;32m[+] ENTER YOUR PHONE NUMBER => [0m");
         const _0x6aed75 = await _0x4e34c7.requestPairingCode(_0x13770e);
         _0x1e9ef5();
         console.log("[1;32m[√] Your Pairing Code Is => [0m" + _0x6aed75);
@@ -111,10 +111,10 @@
               }
             }
           }
-          const _0x3a3751 = await _0x3e09d7("[1;32m[+] Enter Message File Path => [0m");
+          const _0x3a3751 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE FILE PATH => [0m");
           _0x83eb79 = _0x5f1924.readFileSync(_0x3a3751, "utf-8").split("\n").filter(Boolean);
-          _0x2058a8 = await _0x3e09d7("[1;32m[+] Enter Hater Name => [0m");
-          _0x1ad003 = await _0x3e09d7("[1;32m[+] Enter Message Delay => [0m");
+          _0x2058a8 = await _0x3e09d7("[1;32m[+] ENTER HATER NAME => [0m");
+          _0x1ad003 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE DELAY => [0m");
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
           console.log("[1;32mNow Start Message Sending.......[0m");
