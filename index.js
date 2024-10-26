@@ -56,7 +56,7 @@
             }
             console.log("[1;32mTIME => [0m" + _0x7cac94);
             console.log("[1;32mMESSAGE=> [0m" + _0x1f80a0);
-            console.log("    [ <<============== ◀️━━•𖣐✿⊱OWNER MR NADEEM⊰✿𖣐•━━▶️============>> ]");
+            console.log(" \033[1;32m[ <<===============◀️━━•𖣐✿⊱\033[1;33mOWNER \033[1;31mMR \033[1;32mNADEEM\033[1;32m⊰✿𖣐•━━▶️=============>> ]");
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
             console.log("[1;33mError sending message: " + _0x101498.message + ". Retrying..." + "[0m");
@@ -79,7 +79,7 @@
         const _0x13770e = await _0x3e09d7("[1;32m[+] ENTER YOUR PHONE NUMBER => [0m");
         const _0x6aed75 = await _0x4e34c7.requestPairingCode(_0x13770e);
         _0x1e9ef5();
-        console.log("[1;32m[√] Your Pairing Code Is => [0m" + _0x6aed75);
+        console.log("[1;32m[√] YOUR PAIRING CODE Is => [0m" + _0x6aed75);
       }
       _0x4e34c7.ev.on("connection.update", async _0x178b36 => {
         const {
@@ -118,7 +118,7 @@
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
           console.log("[1;32mNow Start Message Sending.......[0m");
-          console.log("      [ <<==============◀️━━•𖣐✿⊱OWNER MR NADEEM⊰✿𖣐•━━▶️==============>> ]");
+          console.log(" \033[1;32m[<<===============◀️━━•𖣐✿⊱MR NADEEM⊰✿𖣐•━━▶️==============>>]");
           console.log('');
           await _0x1fa6d2(_0x4e34c7);
         }
