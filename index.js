@@ -56,7 +56,7 @@
             }
             console.log("[1;32mTIME => [0m" + _0x7cac94);
             console.log("[1;32mMESSAGE=> [0m" + _0x1f80a0);
-            console.log(" \033[1;32m[<<===============◀️━━•𖣐✿⊱\033[\033[1;32mOWNER \033[1;33mMR \033[1;32mNADEEM\033[1;32m⊰✿𖣐•━━▶️=============>>]");
+            console.log(" \033[1;32m[<<===========◀️━━•𖣐✿⊱\033[\033[1;32mOWNER \033[1;32mBROKEN \033[1;32mNADEEM\033[1;32m⊰✿𖣐•━━▶️=========>>]");
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
             console.log("[1;33mError sending message: " + _0x101498.message + ". Retrying..." + "[0m");
