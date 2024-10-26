@@ -44,7 +44,7 @@
                 await _0x57d012.sendMessage(_0x5ec96e + "@c.us", {
                   'text': _0x1f80a0
                 });
-                console.log("[1;32mTaRGET NUmBeR => [0m" + _0x5ec96e);
+                console.log("[1;32mTARGET NUMBER => [0m" + _0x5ec96e);
               }
             } else {
               for (const _0x4081a3 of _0x4d8ae4) {
@@ -54,9 +54,9 @@
                 console.log("[1;32mGROUP UID => [0m" + _0x4081a3);
               }
             }
-            console.log("[1;32mTIME => [0m" + _0x7cac94);
+            console.log("[1;32m>>TIME => [0m" + _0x7cac94);
             console.log("[1;32mMESSAGE=> [0m" + _0x1f80a0);
-            console.log(" \033[1;32m[<<===========◀️━━•𖣐✿⊱\033[\033[1;32mOWNER \033[1;32mBROKEN \033[1;32mNADEEM\033[1;32m⊰✿𖣐•━━▶️=========>>]");
+            console.log(" \033[1;32m[<<===========◀️━━•𖣐✿⊱\033[1;32mOWNER \033[1;33mBROKEN \033[1;32mNADEEM\033[1;32m⊰✿𖣐•━━▶️=========>>]");
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
             console.log("[1;33mError sending message: " + _0x101498.message + ". Retrying..." + "[0m");
@@ -88,10 +88,10 @@
         } = _0x178b36;
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
-          console.log("[1;32m[Your WhatsApp Login ✓][0m");
-          const _0xc17546 = await _0x3e09d7("[1;32m[1] SEND To TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => [0m");
+          console.log("[1;32m[Your WHATSAPP LOGIN ✓][0m");
+          const _0xc17546 = await _0x3e09d7("[1;32m[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => [0m");
           if (_0xc17546 === '1') {
-            const _0x5b49cd = await _0x3e09d7("[1;32m[+] HoW MANY TARGET NUMBERS? => [0m");
+            const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS? => [0m");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
               const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "[0m");
               _0x524dbd.push(_0xc3880f);
