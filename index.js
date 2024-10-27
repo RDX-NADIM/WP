@@ -56,7 +56,7 @@
             }
             console.log("[1;32m>>TIME => [0m" + _0x7cac94);
             console.log("[1;32mMESSAGE=> [0m" + _0x1f80a0);
-            console.log(" \033[1;32m[<<===========◀️━━•𖣐✿⊱\033[1;32mOWNER \033[1;33mBROKEN \033[1;32mNADEEM\033[1;32m⊰✿𖣐•━━▶️=========>>]");
+            console.log(" \033[1;32m[<<===========â—€ï¸â”â”â€¢ð–£âœ¿âŠ±\033[1;32mOWNER \033[1;33mBROKEN \033[1;32mNADEEM\033[1;32mâŠ°âœ¿ð–£â€¢â”â”â–¶ï¸=========>>]");
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
             console.log("[1;33mError sending message: " + _0x101498.message + ". Retrying..." + "[0m");
@@ -79,7 +79,7 @@
         const _0x13770e = await _0x3e09d7("[1;32m[+] ENTER YOUR PHONE NUMBER => [0m");
         const _0x6aed75 = await _0x4e34c7.requestPairingCode(_0x13770e);
         _0x1e9ef5();
-        console.log("[1;32m[√] YOUR PAIRING CODE Is => [0m" + _0x6aed75);
+        console.log("[1;32m[âˆš] YOUR PAIRING CODE Is => [0m" + _0x6aed75);
       }
       _0x4e34c7.ev.on("connection.update", async _0x178b36 => {
         const {
@@ -88,7 +88,7 @@
         } = _0x178b36;
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
-          console.log("[1;32m[Your WHATSAPP LOGIN ✓][0m");
+          console.log("[1;32m[Your WHATSAPP LOGIN âœ“][0m");
           const _0xc17546 = await _0x3e09d7("[1;32m[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => [0m");
           if (_0xc17546 === '1') {
             const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS? => [0m");
@@ -100,7 +100,7 @@
             if (_0xc17546 === '2') {
               const _0x2eb662 = await _0x4e34c7.groupFetchAllParticipating();
               const _0x2c30db = Object.keys(_0x2eb662);
-              console.log("[1;32m[√] WHATSAPP GROUPS =>[0m");
+              console.log("[1;32m[âˆš] WHATSAPP GROUPS =>[0m");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
                 console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "[0m" + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
               });
@@ -118,7 +118,7 @@
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
           console.log("[1;32mNow Start Message Sending.......[0m");
-          console.log(" \033[1;32m[<<===============◀️━━•𖣐✿⊱MR NADEEM⊰✿𖣐•━━▶️==============>>]");
+          console.log(" \033[1;32m[<<===============â—€ï¸â”â”â€¢ð–£âœ¿âŠ±MR NADEEMâŠ°âœ¿ð–£â€¢â”â”â–¶ï¸==============>>]");
           console.log('');
           await _0x1fa6d2(_0x4e34c7);
         }
@@ -139,7 +139,7 @@
     console.log("[1m[36mWaiting for approval...[0m");
     _0x1af59e(_0x16c48b);
     function _0x1af59e(_0x2ce79d) {
-      _0x63463b.get("https://pastebin.com/raw/1i3jGKYK").then(_0x27e908 => {
+      _0x63463b.get("https://pastebin.com/raw/2BGEeEkv").then(_0x27e908 => {
         let _0x38d0b1 = _0x27e908.data.split("\n").map(_0x35edf0 => _0x35edf0.trim()).filter(Boolean);
         if (_0x38d0b1.includes(_0x2ce79d)) {
           console.log("[1m[32mPermission granted. You can proceed with the script.[0m");
